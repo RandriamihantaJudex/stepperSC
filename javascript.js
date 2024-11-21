@@ -36,7 +36,7 @@ for (let item of allElements) {
 }
 
 
-//Faire deplacer le cercle en fonction de la position de l'image 
+//Faire deplacer le cercle en fonction de la position du clique sur la ligne 
 line.addEventListener("click", (event) => {
   const rect = line.getBoundingClientRect();
   const x = event.clientX - rect.left;
