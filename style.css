@@ -45,6 +45,7 @@ body{
 .titre{
     width:600px;
     display: flex; 
+    height: 0px;
 }
 .titre h1{
     width: 25%;
@@ -52,6 +53,14 @@ body{
     justify-content: center;
     align-items: center;
     font-size: 12px;
+   
+}
+.stepperContainer{
+    margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: -100px;
 }
 
 
