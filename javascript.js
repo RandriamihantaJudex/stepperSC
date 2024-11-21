@@ -1,19 +1,15 @@
-// recuperer la class des 4 images
-const bouton = document.querySelector(".bouton");
-const bouton1 = document.querySelector(".bouton2");
-const bouton2 = document.querySelector(".bouton3");
-const bouton3 = document.querySelector(".bouton4");
-
+// recuperer les elemnts bouton(image)
+const boutons = document.querySelectorAll(".bouton");
 
 const circle= document.querySelector(".circle");
 const line= document.querySelector(".line");
 
 // Liste des elements et la position du cercle en hover des elements
 const allElements=[
-  {element:bouton, nombre:11},
-  {element:bouton1, nombre:36},
-  {element:bouton2, nombre:61},
-  {element:bouton3, nombre:86}
+  {element:boutons[0], nombre:11},
+  {element:boutons[1], nombre:36},
+  {element:boutons[2], nombre:61},
+  {element:boutons[3], nombre:86}
 ]
 
 // effet hover sur les images
