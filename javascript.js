@@ -1,4 +1,4 @@
-// recuperer class des 4 images
+// recuperer la class des 4 images
 const bouton = document.querySelector(".bouton");
 const bouton1 = document.querySelector(".bouton2");
 const bouton2 = document.querySelector(".bouton3");
@@ -9,7 +9,7 @@ const circle= document.querySelector(".circle");
 const line= document.querySelector(".line");
 
 // Liste des elements et la position du cercle en hover des elements
-const allElements=[{element:bouton, nombre:0},{element:bouton1, nombre:30},{element:bouton2, nombre:60},{element:bouton3, nombre:95}]
+const allElements=[{element:bouton, nombre:11},{element:bouton1, nombre:36},{element:bouton2, nombre:61},{element:bouton3, nombre:86}]
 
 // effet hover sur les images
 const bouger=(element,marge)=>{
@@ -43,17 +43,17 @@ line.addEventListener("click", (event) => {
   const width = rect.width;
   const percentage = (x / width) * 100;
 
-  if (percentage <= 33) {
-    deplacecircle(0)
+  if (percentage <= 25) {
+    deplacecircle(12)
   }
   else if(percentage <= 50){
-    deplacecircle(30)
+    deplacecircle(37)
   }
   else if(percentage <= 75){
-    deplacecircle(60)
+    deplacecircle(62)
   }
   else{
-    deplacecircle(95)
+    deplacecircle(87)
   }
 });
 
