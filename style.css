@@ -1,0 +1,49 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.centerThose{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    height: 100vh;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+}
+.line{
+    margin-top: 40px;
+    width: 400px;
+    height: 6px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    overflow: visible;
+    cursor: pointer;
+}
+.circle{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background-color: black;
+    transition: all 0.8s;
+}
+
+.imageContainer{
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+}
+.image{
+    cursor: pointer;
+    height: 300px;
+    width: 200px;
+}
+
+
+
+
+
+
