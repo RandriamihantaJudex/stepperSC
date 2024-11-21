@@ -34,12 +34,13 @@ body{
 .imageContainer{
     display: flex;
     justify-content: space-around;
-    gap: 10px;
+    gap: 2px;
+    width: 600px;
 }
 .image{
     cursor: pointer;
     height: 300px;
-    width: 200px;
+    width: 25%;
 }
 
 .titre{

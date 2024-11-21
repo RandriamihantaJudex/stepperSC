@@ -9,7 +9,12 @@ const circle= document.querySelector(".circle");
 const line= document.querySelector(".line");
 
 // Liste des elements et la position du cercle en hover des elements
-const allElements=[{element:bouton, nombre:11},{element:bouton1, nombre:36},{element:bouton2, nombre:61},{element:bouton3, nombre:86}]
+const allElements=[
+  {element:bouton, nombre:11},
+  {element:bouton1, nombre:36},
+  {element:bouton2, nombre:61},
+  {element:bouton3, nombre:86}
+]
 
 // effet hover sur les images
 const bouger=(element,marge)=>{
