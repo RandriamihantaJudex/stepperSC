@@ -48,18 +48,10 @@ line.addEventListener("click", (event) => {
   const width = rect.width;
   const percentage = (x / width) * 100;
 
-  if (percentage <= 25) {
-    deplacecircle(11)
-  }
-  else if(percentage <= 50){
-    deplacecircle(36)
-  }
-  else if(percentage <= 75){
-    deplacecircle(61)
-  }
-  else{
-    deplacecircle(86)
-  }
+  if (percentage <= 25) { deplacecircle(allElements[0].nombre) }
+  else if(percentage <= 50){ deplacecircle(allElements[1].nombre) }
+  else if(percentage <= 75){ deplacecircle(allElements[2].nombre) }
+  else{ deplacecircle(allElements[3].nombre) }
 });
 
 
